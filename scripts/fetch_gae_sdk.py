@@ -20,10 +20,10 @@ Usage:
 Current releases are listed here:
     https://www.googleapis.com/storage/v1/b/appengine-sdks/o?prefix=featured
 """
-
+import io
+from io import StringIO
 import json
 import os
-import StringIO
 import sys
 import urllib2
 import zipfile
